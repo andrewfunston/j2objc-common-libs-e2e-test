@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    compile 'com.google.dagger:dagger:2.0.1:sources'
+}
+
+// Plugin settings:
+j2objcConfig {
+    testMinExpectedTests 0
+
+    finalConfigure()
+}
