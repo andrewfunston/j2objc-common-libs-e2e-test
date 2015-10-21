@@ -1,4 +1,3 @@
-include 'daggerThirdParty'
 include 'shared'
 include 'android'
 

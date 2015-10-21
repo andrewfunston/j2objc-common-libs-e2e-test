@@ -30,8 +30,3 @@ subprojects {
         jcenter()
     }
 }
-
-configure((subprojects - project(':android')) - project(':shared')){
-    apply plugin: 'java'
-    apply plugin: 'com.github.j2objccontrib.j2objcgradle'
-}
