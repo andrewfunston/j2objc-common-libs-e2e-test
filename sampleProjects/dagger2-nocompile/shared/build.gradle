@@ -1,3 +1,7 @@
+plugins {
+    id "com.ewerk.gradle.plugins.dagger" version "1.0.2" // this makes the dagger files visible for the IDE.
+}
+
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 

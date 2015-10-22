@@ -1,4 +1,3 @@
 include 'shared'
-include 'android'
 
 rootProject.name = 'dagger2-sample'

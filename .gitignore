@@ -1,6 +1,13 @@
 .gradle
 build/
 
+I# Built application files
+*.apk
+*.ap_
+*.iml
+
+.idea/
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
